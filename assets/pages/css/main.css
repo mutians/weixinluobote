@@ -1,0 +1,14 @@
+.page-header.navbar .page-logo{line-height:46px;overflow:hidden;}
+.page-header.navbar .page-logo .logo-default{font-size:18px;margin:0;color:#fff;}
+.page-header.navbar .page-logo .logo-default:hover{text-decoration:none;}
+.mt-comments .mt-comment{padding:10px 0;}
+.mt-comments .mt-comment .mt-comment-body{padding:0 10px;}
+.mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-author{color:#666;font-size:16px;font-weight:300;}
+.mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-author i{font-size:14px;}
+.mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-author a{color:#666;}
+.mt-comments .mt-comment .mt-comment-body .mt-comment-text{color:#000;margin-left:20px;}
+.mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-date{color:#888;}
+@media (max-width:768px) {
+    .mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-author,.mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-date{float:none;display:block;margin:0;}
+    .mt-comments .mt-comment .mt-comment-body .mt-comment-info .mt-comment-date{margin-left:20px;}
+}
